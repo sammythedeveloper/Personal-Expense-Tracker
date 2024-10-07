@@ -1,20 +1,72 @@
-# Getting Started with Create React App
+# Getting Started with Personal Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
+The Personal Expense Tracker is a web application that allows users to add, edit, and manage their expenses. The app provides a user-friendly interface for tracking daily expenses and categorizing them accordingly.
 
-## Available Scripts
+Technologies Used
+-Frontend:
+   - React
+   - React Route
+   - CSS for styling
+   - Material UI
+Libraries:
+- useState and 
+- useEffect hooks from React
+- Chart.js
+- ReactChart
 
-In the project directory, you can run:
+#Setup Instructions
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you have the following installed on your machine:
+- Node.js (LTS version recommended)
+- npm (comes with Node.js)
 
-### `npm test`
+Steps to Set Up and Run Locally
+
+1.Clone the Repository Open your terminal and run the following command:
+
+- git clone https://github.com/sammythedeveloper/Personal-Expense-Tracker.git
+
+2.Navigate to the Project Directory
+
+- cd personal-expense-tracker
+
+3.Install Dependencies Run the following command to install the necessary dependencies:
+- npm install
+
+4.Run the Application Start the development server using:
+
+- npm start
+
+
+
+Features
+
+
+ + Add Expense: Users can add expenses with categories, date, and amount.
+ + Edit Expense: Users can edit existing expenses.
+ + Expense List: View all added expenses in a list format.
+
+
+ Assumptions
+
+ - Users must have a basic understanding of using web applications.
+ - The app is designed for personal expense tracking and may require an internet connection for any external libraries (like charting libraries) to load.
+
+
+
+
+
+
+
+
+
+
+
+<!-- ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -67,4 +119,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
