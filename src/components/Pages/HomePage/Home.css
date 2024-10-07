@@ -1,0 +1,32 @@
+.link-button {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Change the font color to white */
+    display: block; /* Ensure the link takes full button space */
+    width: 100%; /* Make it full width of the button */
+    height: 100%; /* Make it full height of the button */
+  }
+  
+  /* If you need to style buttons separately */
+  .button-container {
+    display: flex; /* Display buttons in a row */
+    justify-content: center; /* Center the buttons */
+    align-items: center; /* Center vertically */
+    margin: 20px 0; /* Margin for spacing */
+  }
+  
+  button {
+    padding: 15px 0; /* Adjust padding for uniformity */
+    margin: 10px; /* Space between buttons */
+    border: none;
+    border-radius: 5px;
+    background-color: #19346b; /* Button background color */
+    color: white; /* Default button text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #b2c1e1;
+    color: #19346b;
+  }
+
+  

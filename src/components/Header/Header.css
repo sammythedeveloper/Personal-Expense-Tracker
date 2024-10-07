@@ -1,0 +1,72 @@
+.Header {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+  justify-content: space-around;
+  padding: 30px 0px; /* Adjust padding */
+  background-color: #fff; /* Optional: Set background color */
+  width: 100vw; /* Full width */
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 150px; /* Set width for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.menu-icon {
+  display: none; /* Hide the menu icon by default */
+  cursor: pointer; /* Change cursor to pointer */
+  margin-right: 10px; /* Space between logo and menu */
+}
+
+/* Styles for the list items */
+.listitems {
+  display: flex; /* Aligns list items horizontally */
+  list-style: none; /* Removes default bullet points */
+  padding: 30 10; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.listitems li {
+  margin-left: 20px; /* Space between list items */
+}
+
+/* Banner Styles */
+.banner {
+  width: 100vw; /* Full width of the screen */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 90vh; /* Set a maximum height for the banner */
+  object-fit: cover; /* Ensures image covers the container without distortion */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .menu-icon {
+    display: block; /* Show the menu icon on small screens */
+  }
+
+  .listitems {
+    display: none; /* Hide the list items by default */
+  }
+
+  .menu.open .listitems {
+    display: flex; /* Show list items when the menu is open */
+    flex-direction: column; /* Stack list items vertically */
+    margin-top: 10px; /* Space between logo and nav */
+  }
+
+  .listitems li {
+    margin-left: 0; /* Reset left margin */
+    margin-bottom: 10px; /* Space between list items */
+  }
+
+  .banner {
+    height: 60vh; /* Makes the banner taller in height on mobile */
+    object-fit: cover; /* Ensures the image doesn't get squished */
+  }
+}
+@media (min-width: 1025px) {
+  .menu-icon {
+    display: none; /* Hide the menu icon on larger screens */
+  }
+}

@@ -1,0 +1,173 @@
+/* Container for the expense list */
+.expense-list-container {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+  padding: 50px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2,
+h3 {
+  color: #555;
+}
+
+/* Button styles */
+button {
+  width: 150px; /* Set a fixed width for both buttons */
+  padding: 15px 0; /* Adjust padding for consistency */
+  margin: 10px 5px; /* Keep your margin as is */
+  border: none;
+  border-radius: 5px;
+  background-color: #19346b;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if you have a height set */
+}
+
+
+button:hover {
+  background-color: #b2c1e1;
+  color: #19346b;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Summary styles */
+.summary {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.table-responsive {
+  overflow-x: auto; /* Enable horizontal scrolling for small screens */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px; /* Adjusted padding */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #19346b;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+/* Summary Section Styles */
+.summary {
+  background: #f0f0f0;
+  padding: 25px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+/* Individual Category Box Styles */
+.category-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: space-between; /* Space items evenly */
+  gap: 10px; /* Space between boxes */
+}
+
+/* Category Box */
+.category-box {
+  flex: 1 1 calc(33.33% - 10px); /* Responsive width (3 per row) */
+  padding: 10px; /* Padding inside each box */
+  margin-bottom: 10px; /* Space below each box */
+  background: #f0f0f0; /* Light background for each box */
+  border-radius: 8px; /* Rounded corners for category boxes */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Light shadow effect */
+  text-align: center; /* Center the text */
+}
+
+/* Scrollable Button Styles */
+.scroll-button {
+  border: none; /* No border for buttons */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 15px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.scroll-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .category-box {
+    flex: 1 1 calc(50% - 10px); /* 2 per row for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .category-box {
+    flex: 1 1 100%; /* 1 per row for small screens */
+  }
+}
+
+/* Responsive Styles */
+/* Media Query for Larger Screens */
+@media (min-width: 480px) {
+  .category-box {
+    padding: 30px; /* Increased padding for medium screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .category-box {
+    padding: 40px; /* Increased padding for large screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-box {
+    padding: 50px; /* Increased padding for extra large screens */
+  }
+}
+
+/* Hover Effect for Category Boxes */
+.category-box:hover {
+  transform: translateY(-5px); /* Slight upward movement */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  background-color: #e9ecef; /* Darker background on hover */
+}

@@ -1,0 +1,24 @@
+table {
+    width: 100%; /* Make the table take full width */
+    margin: 20px 0; /* Margin for spacing */
+    border-collapse: collapse; /* Remove gaps between borders */
+  }
+  
+  td {
+    padding: 10px; /* Padding inside table cells */
+    vertical-align: top; /* Align text to the top */
+  }
+  
+  label {
+    font-weight: bold; /* Bold labels */
+  }
+  
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 100%; /* Full width for inputs and selects */
+    padding: 8px; /* Padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
