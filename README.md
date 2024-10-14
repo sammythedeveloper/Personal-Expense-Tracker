@@ -5,22 +5,23 @@ The Personal Expense Tracker is a web application that allows users to add, edit
 
 Technologies Used
 -Frontend:
-   - React
-   - React Route
-   - CSS for styling
-   - Material UI
-Libraries:
-- useState and 
+
+- React
+- React Route
+- CSS for styling
+- Material UI
+  Libraries:
+- useState and
 - useEffect hooks from React
 - Chart.js
 - ReactChart
 
 #Setup Instructions
 
-
 Prerequisites
 
 Make sure you have the following installed on your machine:
+
 - Node.js (LTS version recommended)
 - npm (comes with Node.js)
 
@@ -30,41 +31,28 @@ Steps to Set Up and Run Locally
 
 - git clone https://github.com/sammythedeveloper/Personal-Expense-Tracker.git
 
-2.Navigate to the Project Directory
+  2.Navigate to the Project Directory
 
 - cd personal-expense-tracker
 
-3.Install Dependencies Run the following command to install the necessary dependencies:
+  3.Install Dependencies Run the following command to install the necessary dependencies:
+
 - npm install
 
-4.Run the Application Start the development server using:
+  4.Run the Application Start the development server using:
 
 - npm start
 
-
-
 Features
 
+- Add Expense: Users can add expenses with categories, date, and amount.
+- Edit Expense: Users can edit existing expenses.
+- Expense List: View all added expenses in a list format.
 
- + Add Expense: Users can add expenses with categories, date, and amount.
- + Edit Expense: Users can edit existing expenses.
- + Expense List: View all added expenses in a list format.
+Assumptions
 
-
- Assumptions
-
- - Users must have a basic understanding of using web applications.
- - The app is designed for personal expense tracking and may require an internet connection for any external libraries (like charting libraries) to load.
-
-
-
-
-
-
-
-
-
-
+- Users must have a basic understanding of using web applications.
+- The app is designed for personal expense tracking and may require an internet connection for any external libraries (like charting libraries) to load.
 
 <!-- ### `npm test`
 
