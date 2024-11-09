@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sammythedeveloper/Personal-Expense-Tracker/static/css/main.3386d6c8.css",
-    "main.js": "/sammythedeveloper/Personal-Expense-Tracker/static/js/main.14583253.js",
-    "index.html": "/sammythedeveloper/Personal-Expense-Tracker/index.html",
-    "main.3386d6c8.css.map": "/sammythedeveloper/Personal-Expense-Tracker/static/css/main.3386d6c8.css.map",
-    "main.14583253.js.map": "/sammythedeveloper/Personal-Expense-Tracker/static/js/main.14583253.js.map"
+    "main.css": "/Personal-Expense-Tracker/static/css/main.3386d6c8.css",
+    "main.js": "/Personal-Expense-Tracker/static/js/main.7a652c42.js",
+    "index.html": "/Personal-Expense-Tracker/index.html",
+    "main.3386d6c8.css.map": "/Personal-Expense-Tracker/static/css/main.3386d6c8.css.map",
+    "main.7a652c42.js.map": "/Personal-Expense-Tracker/static/js/main.7a652c42.js.map"
   },
   "entrypoints": [
     "static/css/main.3386d6c8.css",
-    "static/js/main.14583253.js"
+    "static/js/main.7a652c42.js"
   ]
 }
